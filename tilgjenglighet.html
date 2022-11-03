@@ -1,0 +1,149 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Pages.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <title>Tilgjenglighhet</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#">
+          <img class="logo" alt=" kaffe logo" src="bilder/logo.jpg" />
+        </a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a class="nav-link" href="index.html">Velkommen</a></li>
+            <li><a class="nav-link" href="Booking.html">Booking</a></li>
+            <li><a class="nav-link" href="meny.html">Meny</a></li>
+            <li><a class="nav-link" href="aktuellinformasjon.html">Aktulle informasjon</a></li>
+            <li><a class="nav-link" href="tilgjenglighet.html">Tilgjenglighhet</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <div class="aktuell-tekst">
+
+           
+            <h2> Hvordan vi gjorde kodevalg for universell utforming </h2>
+            <p>
+                Før vi startet med å lage sidene, så tok vi noen avgjørelser
+            angående kodingen. Vi skulle ha et godt organisert innhold som
+            hjelper brukere til å orientere seg og å navigere effektivt. Sidene
+            skulle ha klare titler og er organisert ved hjelp av beskrivende
+            seksjonsoverskrifter, hvor overskrifter og avsnitt er riktig merket.
+            I tillegg var det slik at vi skulle velge "semantic tags": Dere kan
+            se på bildet så langt det gikk, for at folk som bruker skjermleser
+            skulle få bedre opplevese. Dette er noe vi har gjennomgående i alle
+            sidene. Et annet valg vi tok, var hvordan vi skulle style siden vår.
+            Den skulle være lesebar for alle. Vi valgte en linjehøyde som var
+            minst 1.5 ganger skriftstørrelsen, bokstavavstand skulle være 0.12
+            ganger skriftstørrelsen og ordavstand skulle være minst 0.16 ganger
+            skriftstørrelsen. I tillegg så valgte vi enkle og fine farger slik
+            at folk som er fargeblinde også skulle klare å lese sidene våre.
+            </p>
+            <figure aria-hidden="true">
+                <img src="bilder/fisk.jpg"
+                    alt="Screenshot of the website code that shows examples of 'aria-hidden' and 'tabindex'.">
+                <figcaption>
+                    Screenshot of the code that shows examples of 'aria-hidden' and 'tabindex'.
+                </figcaption>
+            </figure>
+            <p>
+                Brukere av nettsiden blir informert om deres nåværende plassering på
+            siden. Dette gjennom flere detaljer, blant annet hvilken side de er
+            på gjennom overskrift og "naven".Tastaturets fokus er synlig, vi la
+            også til tabindex i overksrifter og paragrafer slik at brukeren kan
+            navigere med piltastene og tabben. Vi har linker i naven så de som
+            leser kan komme til andre sidene ved å bare bruke tasteture. Vi la
+            videre til en navbar som er fixed, det vil si den er tilstede hele
+            tiden, også når folk blar nedover. Vi synes det å ha navbaren slik
+            er hensiktmessig, det gjør navigasjonen rundt på nettstedet
+            effektiv, og er med på å gjøre siden vår mer tilgjengelig.
+
+
+            </p>
+             
+        
+        </div>
+        </article>
+
+        <article>
+            <div class="aktuell-tekst">
+
+           
+            <h2>Hvordan vi testet koden vår</h2>
+            <p>
+                For å sjekke koden våres og validere den brukte vi nettstedet "web
+                accessibility evalutaion tool"
+                <a href="https://wave.webaim.org/">(WAVE)</a>. Denne siden brukte vi
+                for å sjekke alle sidene unntatt "kreativ". De fire sidene fikk
+                flere "alerts": Vi hadde brukt redundant link i naven. Hadde en link
+                i logoen som var lik hjemme linken - det resulterer i ytterligere
+                navigering og repetisjon for tastatur- og skjermleserbrukere, noe
+                som gjorde at vi fjernet disse detaljene. I tillegg hadde vi skrevet
+                feil tabindex på siden vår som resulterte i at vi fikk varsel i alle
+                avsnitt og overksrifter. Dette var på grunn av at vi hadde brukt
+                tabindex 1 og 2. Dette ledet til forvirring om hva som er hva og
+                ikke er interaktivt, spesielt hvis man ikke kan se skjermen. Ellers
+                hadde ikke de fire sidene noen andre varsler eller feil, som dere
+                kan se på bildet.
+            </p>
+            <p> Vi valgte også å legge til den kreative siden, og i likhet med de
+                andre sidene hadde den også noen feil og mangler. Det første var at
+                vi hadde en video med tekst over seg, der det var lav konstrast
+                mellom teksten og bildet. I tillegg fikk vi varsel på videoen. Dette
+                fordi at når det legges til en video, så må lydinnhold presenteres i
+                et tekstformat for at det skal være fullt tilgjengelig for brukere
+                som er døve og tunghørte. Men videoen vår har ikke noe lyd i seg
+                orginalt, noe som gjør den tilgjengelig for alle.</p>
+             </div>
+        </article>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="tekst">
+                <p>
+                      Kontakt oss her:
+                </p>
+             
+        
+            </div>
+            <div class="adresse-kolonne">
+                <p>
+                    Adresse: 
+                </p>
+                <p>
+                    Leiknesveien 43, 9307 Finnsnes
+                </p>
+
+            </div>
+            <div class="epost-kolonne">
+
+                <p>Epost : </p>
+                <a class="footer-link" href="mailto:Eventhouse@eventhouse.com"
+                >Eventhouse@eventhouse.com</a
+              >
+
+            </div>
+           
+            <div class="mobil-kolonne">
+                <p>Mobil</p>
+                <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
+                    >
+            </div>
+
+        </div>
+      
+      
+
+
+
+    </footer>
+
+    
+</body>
+</html>

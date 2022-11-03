@@ -1,0 +1,160 @@
+
+/****************/
+/**Aktuell og tilgjenglighet siden*/
+/*********************/
+
+main > article{
+    padding: 4rem 5rem 4rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+h2 {
+    font-size: 2.8rem;
+    padding: 2rem 0;
+}
+
+ p{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    max-width: 150ch;
+    margin: 0 auto;
+}
+.aktuell-tekst{
+    border-style: solid;
+    padding: 4rem 5rem 4rem;
+    
+}
+figure{
+    margin:  3rem;
+    font-size: 1rem;
+    text-align: center;
+
+}
+.overskrift{
+
+    font-weight: 300;
+    margin-bottom: 4rem;
+    font-size: 1.25rem;
+    margin-top: 5rem;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+
+/***************/
+/***Booking*****/
+
+.book-seksjon {
+    /* top / right / bottom / left */
+    padding: 4.8rem 0 12.8rem;
+  }
+  
+  .book {
+    display: grid;
+    grid-template-columns: 2fr;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+    border-radius: 11px;
+    overflow: hidden;
+    
+  }
+  
+  .book-tekst-box{
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    color: #070706;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .book .tekst-box-overskrift {
+    margin-bottom: 1.2rem;
+  }
+
+  
+
+  .boook-form {
+    display: grid;
+    row-gap: 2.6rem;
+    grid-template-columns:1fr 1fr;
+    column-gap: 3rem;
+    
+  }
+  
+  .book-form label {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 1.2rem;
+   
+  }
+  
+  .book-form input,
+  .book-form select {
+    width: 50%;
+    padding: 1.4rem;
+    font-size: 1.2rem;
+    background-color: #fdf2e9;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgba(94, 8, 8, 0.1);
+  }
+
+  #hvorMange {
+    width: 15%;
+  }
+  .button{
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px;
+    color: #fff;
+    background-color: #1c2c20;
+    margin-top: 2rem;
+    font-size: 2rem;
+   
+  }
+
+  /************/
+  /**Meny siden*/
+  .meny-container{
+	display: flex;
+    flex-direction: row;
+	flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem;
+    
+	
+}
+.meny-box{
+	padding: 5px;
+	margin: 10px;
+    
+}
+.meny {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1.5fr);
+    border: 3px solid;
+    margin: 2rem 0 5rem;
+    padding: 2rem 3rem 4rem 3rem ;
+    
+}
+
+.type{
+    align-items: center;
+    font-size: 2rem;
+}
+
+
+  
+ 
+
+  
+
