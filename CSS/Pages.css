@@ -79,7 +79,7 @@ figure{
 
 
 /***************/
-/***Booking*****/
+/***Layout Booking*****/
 
 .book-seksjon {
     padding: 4.8rem 0 12.8rem;
@@ -147,7 +147,7 @@ figure{
   }
 
   /************/
-  /**Meny siden*/
+  /**Layout Meny siden*/
   .meny-container{
 	display: flex;
     flex-direction: row;
