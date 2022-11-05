@@ -1,14 +1,15 @@
-<html lang="en">
+<html lang="nn">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/genrelt.css">
-    <link rel="stylesheet" href="CSS/responsive.css">
-    <title>Event</title>
+    <link rel="stylesheet" href="CSS/index.css">    
+  
+    <title>Event og caffe </title>
 </head>
 <body>
+      <!-- NAV  start-->
+
     <header class="header">
         <a href="#">
           <img class="logo" alt=" kaffe-logo" src="bilder/logo.jpg" />
@@ -19,16 +20,22 @@
             <input type="checkbox" id="checkbox_toggle" />
             <label for="checkbox_toggle" class="knapp">&#9776;</label>
             <div class="nav-list">
-              <li><a class="nav-link" href="index.html">Velkommen</a></li>
-              <li><a class="nav-link" href="Booking.html">Booking</a></li>
-              <li><a class="nav-link" href="meny.html">Meny</a></li>
-              <li><a class="nav-link" href="aktuellinformasjon.html">Aktulle informasjon</a></li>
-              <li><a class="nav-link" href="tilgjenglighet.html">Tilgjenglighhet</a></li>
+              <li><a tabindex="0" class="nav-link" href="index.html">Velkommen</a></li>
+              <li><a tabindex="0" class="nav-link" href="Booking.html">Booking</a></li>
+              <li><a tabindex="0" class="nav-link" href="meny.html">Meny</a></li>
+              <li><a tabindex="0" class="nav-link" href="aktuellinformasjon.html">Aktulle informasjon</a></li>
+              <li><a tabindex="0" class="nav-link" href="tilgjenglighet.html">Tilgjenglighhet</a></li>
             </div>
           </ul>
         </nav>
 
-       
+     <!-- NAV slutt-->
+
+   <main>
+      <!--
+       Forklaring av siden
+      -->
+    
     </header>
     <section class="Velkommen-seksjon">
         <div class="info">
@@ -49,19 +56,21 @@
           </div>
         </div>
       </section>
+    </main>
+     <!---->
 
-
+   <!--    Footer Start    -->
     <footer class="footer">
         <div class="footer-container">
-            <div class="tekst">
+            <div class="footer-tekst">
                 <p>
                       Kontakt oss her:
                 </p>
              
         
             </div>
-            <div class="adresse-kolonne">
-                <p>
+            <div>
+                <p class="adresse-kolonne">
                     Adresse: 
                 </p>
                 <p>
@@ -69,29 +78,23 @@
                 </p>
 
             </div>
-            <div class="epost-kolonne">
+            <div>
 
-                <p>Epost : </p>
+                <p class="epost-kolonne">Epost : </p>
                 <a class="footer-link" href="mailto:Eventhouse@eventhouse.com"
-                >Eventhouse@eventhouse.com</a
+                >Event@eventhouse.com</a
               >
 
             </div>
            
-            <div class="mobil-kolonne">
-                <p>Mobil</p>
+            <div>
+                <p class="mobil-kolonne">Mobil</p>
                 <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
                     >
             </div>
 
         </div>
-      
-      
-
-
-
     </footer>
-
-
+     <!--    Footer Slutt   -->
 </body>
 </html>

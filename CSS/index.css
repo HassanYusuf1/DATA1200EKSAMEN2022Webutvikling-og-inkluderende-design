@@ -1,0 +1,216 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  /**************************/
+  /* Nav */
+  /**************************/
+  .header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: #e4decd;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+  }
+  
+  .logo {
+    height: 2.6rem;
+  }
+  
+
+  .nav a, li {
+    color: rgb(26, 25, 25);
+    list-style: none;
+   text-decoration: none;
+   }
+   
+   .nav-list {
+    display: flex;
+    gap: 0.5em;
+    font-size: 30px ;
+   }
+   .nav-list li:hover {
+    background-color: #4c9e9e;
+    border-radius: 4px;
+   
+   }
+   .nav-list li {
+    padding: 6px 12px;
+   }
+   .knapp, #checkbox_toggle{
+     display: none;
+     font-size: 34px;
+   }
+  
+
+/***********************/
+/* Tekstrelatert**********/
+/****h1, h2, a, 
+klasse til h2 og p ***/
+.første-oversikt {
+  font-size: 5.2rem;
+  line-height: 1;
+  margin-bottom: 3rem;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+.info-tekst{
+  font-size: 2rem;
+  line-height: 1.6;
+}
+.footer-tekst, .adresse-kolonne, .epost-kolonne, .mobil-kolonne{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+  
+  /****************/
+  /*Layout*/
+  /*********************/
+
+  
+.velkommen-seksjon {
+    background-color: #e4decd;
+    padding: 4.8rem 0 9.6rem 0;
+  }
+  
+  .info {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    align-items: center;
+  }
+  
+  .info-tekst{
+    margin-bottom: 4.8rem;
+  }
+  
+  .info-bilde{
+    width: 100%;
+  }
+ 
+
+
+/**************************/
+/* Footer */
+/**************************/
+
+.footer{
+    padding: 5rem 0 4rem 5rem;
+    border-top: 1px solid rgb(158, 158, 158); ;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr)
+
+}
+.footer-container {
+    font-size: 1.5rem;
+    
+}
+
+/*****************/
+/*Tablets*********/
+@media(max-width:940px){
+ 
+/*****Naven*******/
+  .nav-list{ 
+    display:none;
+    position: absolute;
+    background-color: #e4decd;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 19px 0;
+   }
+   .nav-list li:hover {
+    display: inline-block;
+    background-color:#4c9e9e;
+   }
+   .nav-list li + li {
+    margin-top: 16px;
+   }
+   input[type=checkbox]:checked ~ .nav-list{
+    display: block;
+   }
+   .knapp{
+    display: block;
+   }
+
+
+
+
+ /******Velkomen siden******/
+ .info-tekst{
+  margin-bottom: 0;
+ }
+ .info{
+   padding: 1rem 3rem;
+   grid-template-columns: 1fr;
+ }
+ .info-bilde{
+   align-items: center;
+   padding-left: 50px;
+ width: 80%;
+ }
+ 
+ .første-oversikt{
+
+   font-size: 4rem;
+   margin-bottom: 2rem;
+   margin-top: 3rem;
+ }
+
+ /****Footer*****/
+ .footer{
+  padding: 10px 0 15px 10px;
+
+}
+
+.footer-tekst, .adresse-kolonne, .epost-kolonne, .mobil-kolonne{
+  font-size: 25px;
+}
+
+
+/**********Mobil**************/
+@media (max-width: 480px) {
+
+  .info-tekst{
+    font-size: 1.5rem;
+    padding: 20px,20px;
+   }
+   .første-oversikt{
+     font-size: 3rem;
+   
+  }
+ 
+
+  .footer-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+
+}
+.footer-container p{
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+}
+
+
+}
+
+}
+
+  
+

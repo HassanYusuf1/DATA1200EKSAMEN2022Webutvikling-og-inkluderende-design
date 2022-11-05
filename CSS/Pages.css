@@ -1,6 +1,45 @@
 
+/*************/
+/* Tekstrelatert:
+h1, h2, a, 
+klasse til h2 og p */
+/************/
+h2 {
+  font-size: 2.8rem;
+  padding: 2rem 0;
+}
+
+p{
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+h1{
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+
+figure{
+  font-size: 1rem;
+}
+.overskrift{
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.booking-tekst{
+  font-size: 40px;
+}
+.booking-tekst{
+  font-size: 40px;
+}
+
+
 /****************/
-/**Aktuell og tilgjenglighet siden*/
+/**Layout  Akutell og tilgjenlighet siden/
 /*********************/
 
 main > article{
@@ -8,16 +47,7 @@ main > article{
     margin-bottom: 2rem;
     border-radius: 5px;
 }
-h2 {
-    font-size: 2.8rem;
-    padding: 2rem 0;
-}
 
- p{
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-    line-height: 1.4;
-}
 main{
     display: grid;
     grid-template-columns: 1fr;
@@ -32,30 +62,26 @@ main{
 }
 figure{
     margin:  3rem;
-    font-size: 1rem;
     text-align: center;
 
 }
 .overskrift{
-
-    font-weight: 300;
     margin-bottom: 4rem;
-    font-size: 1.25rem;
     margin-top: 5rem;
 }
-h1{
-    font-size: 4rem;
-    text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 4rem;
+
+.book-form input,
+.book-form select {
+  font-size: 1.2rem;
+
 }
+
 
 
 /***************/
 /***Booking*****/
 
 .book-seksjon {
-    /* top / right / bottom / left */
     padding: 4.8rem 0 12.8rem;
   }
   
@@ -78,9 +104,9 @@ h1{
   .book .tekst-box-overskrift {
     margin-bottom: 1.2rem;
   }
-
-
-  
+  .book-overskrift{
+    text-align: center;
+  }
 
   .boook-form {
     display: grid;
@@ -102,7 +128,6 @@ h1{
   .book-form select {
     width: 50%;
     padding: 1.4rem;
-    font-size: 1.2rem;
     background-color: #fdf2e9;
     border-radius: 9px;
     box-shadow: 0 1px 2px rgba(94, 8, 8, 0.1);
@@ -152,6 +177,112 @@ h1{
     align-items: center;
     font-size: 2rem;
 }
+
+
+
+
+/****Media-Query**/
+/*****TABLETS*****/
+@media(max-width:940px){
+
+
+  /*****Generelt*********/
+  h2{
+    font-size: 40px;
+  }
+  p{
+    font-size: 20px;
+  }
+
+
+
+  /******Booking siden******/
+  
+.booking-tekst{
+  font-size: 35px;
+  padding: 0 30px 0 30px;
+}
+.book-overskrift{
+  font-size: 60px;
+}
+/**Meny***/
+
+.meny {
+
+  display: grid;
+  grid-template-columns: 1fr;
+
+  
+}
+.meny-item{
+
+  text-align: center;
+}
+
+/********Aktuel og tilgjenglighet********/
+.aktuell-tekst{
+  padding: 2rem 2rem 2rem;
+  
+}
+.akutell-bilde{
+  width: 30%;
+}
+figure{
+  width: 20px;
+}
+
+  
+}
+
+/****Mobil****/
+@media (max-width: 480px) {
+/***********Genrelt ****************/
+h1{
+  font-size: 3rem;
+}
+ h2{
+  font-size: 30px;
+}
+p{
+  font-size: 19px;
+}
+
+
+  /********Booking************/
+  .booking-tekst{
+    font-size: 25px;
+    padding: 0 30px 0 30px;
+  }
+  .tekst-box-overskrift{
+    font-size: 60px;
+  }
+  .book-overskrift{
+    font-size: 40px;
+
+  }
+  #tittel{
+
+    font-size: 25px;
+  }
+  .book-tekst-box {
+    /* top / right / bottom / left */
+    padding: 1rem 1rem 1rem 2rem ;
+  }
+
+
+  /******Meny*****/
+
+  .aktuell-tekst{
+    padding: 1rem 1rem 1rem;
+    
+  }
+  
+  
+    
+
+
+}
+
 
 
   

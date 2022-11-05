@@ -3,9 +3,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/Pages.css">
-    <link rel="stylesheet" href="CSS/responsive.css">
     <title>Booking</title>
 </head>
 <body>
@@ -36,7 +35,7 @@
                 <h1>
                     Booking
                 </h1>
-                <p>
+                <p class="booking-tekst">
                     Velkommen til Guttas Vertshus!
                     Guttas Vertshus er et lokale eid av 5 ambisjonsfylt
                      gutter som leies ut til forskjellige arrangement og samlinger.
@@ -59,10 +58,10 @@
             <div class="container">
               <div class="book">
                 <div class="book-tekst-box">
-                  <h2 class="tekst-box-overskrift">Book nå!</h2>
+                  <h2 class="book-overskrift">Book nå!</h2>
                   <form class="book-form" action="#">
                     <div>
-                      <label for="full-name">Full navn</label>
+                      <label for="full-name" id="tittel">Full navn</label>
                       <input
                         type="text"
                         placeholder="John Smith"
@@ -71,7 +70,7 @@
                     </div>
     
                     <div>
-                      <label for="email">Epost</label>
+                      <label for="email" id="tittel">Epost</label>
                       <input
                         type="email"
                         placeholder="main@hotmail.com"
@@ -79,7 +78,7 @@
                       />
                     </div>
                     <div>
-                        <label for="telefon">Mobilnummer</label>
+                        <label for="telefon" id="tittel">Mobilnummer</label>
                         <input
                           type="tel"
                           placeholder="45-54-45-34"
@@ -88,7 +87,7 @@
                       </div>
     
                     <div>
-                      <label for="hvor mange">Hvor mange er dere?</label>
+                      <label for="hvor mange" id="tittel">Hvor mange er dere?</label>
                         <input type="number"
                         id="hvorMange"
                         required>
@@ -111,46 +110,48 @@
 
     </main>
 
+   
     <footer class="footer">
-        <div class="footer-container">
-            <div class="tekst">
-                <p>
-                      Kontakt oss her:
-                </p>
-             
-        
-            </div>
-            <div class="adresse-kolonne">
-                <p>
-                    Adresse: 
-                </p>
-                <p>
-                    Leiknesveien 43, 9307 Finnsnes
-                </p>
-
-            </div>
-            <div class="epost-kolonne">
-
-                <p>Epost : </p>
-                <a class="footer-link" href="mailto:Eventhouse@eventhouse.com"
-                >Eventhouse@eventhouse.com</a
-              >
-
-            </div>
+      <div class="footer-container">
+          <div class="footer-tekst">
+              <p>
+                    Kontakt oss her:
+              </p>
            
-            <div class="mobil-kolonne">
-                <p>Mobil</p>
-                <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
-                    >
-            </div>
-
-        </div>
       
-      
+          </div>
+          <div>
+              <p class="adresse-kolonne">
+                  Adresse: 
+              </p>
+              <p>
+               Leiknesveien 43, 9307 Finnsnes
+              </p>
+
+          </div>
+          <div>
+
+              <p class="epost-kolonne">Epost : </p>
+              <a class="footer-link" href="mailto:Eventhouse@eventhouse.com"
+              >Event@eventhouse.com</a
+            >
+
+          </div>
+         
+          <div>
+              <p class="mobil-kolonne">Mobil</p>
+              <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
+                  >
+          </div>
+
+      </div>
+    
+    
 
 
 
-    </footer>
+  </footer>
+
 
     
 </body>
