@@ -20,7 +20,15 @@
   }
   
   .logo {
-    height: 42px;
+    font-size: 70px;
+    font-weight: 600;
+    color: #fdfdfe;
+    text-shadow: 0px 0px 5px #7fb9cf, 0px 0px 10px #7fb9cf, 0px 0px 10px #7fb9cf,
+    0px 0px 20px #7fb9cf;
+  }
+
+  .logo:hover {
+    cursor:pointer;
   }
   
 
@@ -37,6 +45,7 @@
    }
    .nav-list li:hover {
     background-color: #4c9e9e;
+    text-decoration: underline black;
     border-radius: 4px;
    
    }

@@ -11,9 +11,8 @@
 
 
     <header class="header">
-        <a href="#">
-          <img class="logo" alt=" kaffe logo" src="bilder/logo.jpg" />
-        </a>
+      <p class="logo" id="logo">GUTTA</p>
+      
         <nav class="navBar">
           <ul class="nav">
             <input type="checkbox" id="checkbox_toggle" />
@@ -151,6 +150,17 @@
 
 
   </footer>
+  
+  <script>
+    var logoEl = document.getElementById("logo");
+
+    addEventListener("click", start);
+
+    function start() {
+      location.href = "index.html";
+    }
+    
+  </script>
 
 
     
