@@ -14,13 +14,13 @@
     justify-content: space-between;
     align-items: center;
     display: flex;
-    background-color: #e4decd;
-    height: 9.6rem;
-    padding: 0 4.8rem;
+    background-color: #8f8f8f;
+    height: 154px;
+    padding: 0 77px;
   }
   
   .logo {
-    height: 2.6rem;
+    height: 42px;
   }
   
 
@@ -32,7 +32,7 @@
    
    .nav-list {
     display: flex;
-    gap: 0.5em;
+    gap: 8px;
     font-size: 30px ;
    }
    .nav-list li:hover {
@@ -54,14 +54,14 @@
 /****h1, h2, a, 
 klasse til h2 og p ***/
 .første-oversikt {
-  font-size: 5.2rem;
+  font-size: 83px;
   line-height: 1;
-  margin-bottom: 3rem;
+  margin-bottom: 48px;
   font-weight: 600;
   color: rgb(0, 0, 0);
 }
 .info-tekst{
-  font-size: 2rem;
+  font-size: 32px;
   line-height: 1.6;
 }
 .footer-tekst, .adresse-kolonne, .epost-kolonne, .mobil-kolonne{
@@ -76,17 +76,17 @@ klasse til h2 og p ***/
 
   
 .velkommen-seksjon {
-    background-color: #e4decd;
-    padding: 4.8rem 0 9.6rem 0;
+    background-color: #8f8f8f;
+    padding: 77px 0 154px 0;
   }
   
   .info {
-    max-width: 130rem;
+    max-width: 2080px;
     margin: 0 auto;
-    padding: 0 3.2rem;
+    padding: 0 51px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 9.6rem;
+    gap: 154px;
     align-items: center;
   }
   
@@ -105,8 +105,8 @@ klasse til h2 og p ***/
 /**************************/
 
 .footer{
-    padding: 5rem 0 4rem 5rem;
-    border-top: 1px solid rgb(158, 158, 158); ;
+    padding: 80px 0 64px 80px;
+    border-top: 1px solid #8f8f8f; ;
 }
 
 .footer-container{
@@ -127,7 +127,7 @@ klasse til h2 og p ***/
   .nav-list{ 
     display:none;
     position: absolute;
-    background-color: #e4decd;
+    background-color: #8f8f8f;
     right: 0;
     left: 0;
     text-align: center;
@@ -135,7 +135,7 @@ klasse til h2 og p ***/
    }
    .nav-list li:hover {
     display: inline-block;
-    background-color:#4c9e9e;
+    background-color:#489696;
    }
    .nav-list li + li {
     margin-top: 16px;
@@ -155,7 +155,7 @@ klasse til h2 og p ***/
   margin-bottom: 0;
  }
  .info{
-   padding: 1rem 3rem;
+   padding: 16px 48px;
    grid-template-columns: 1fr;
  }
  .info-bilde{
@@ -166,9 +166,9 @@ klasse til h2 og p ***/
  
  .første-oversikt{
 
-   font-size: 4rem;
-   margin-bottom: 2rem;
-   margin-top: 3rem;
+   font-size: 64px;
+   margin-bottom: 32px;
+   margin-top: 48px;
  }
 
  /****Footer*****/
@@ -186,11 +186,11 @@ klasse til h2 og p ***/
 @media (max-width: 480px) {
 
   .info-tekst{
-    font-size: 1.5rem;
+    font-size: 24px;
     padding: 20px,20px;
    }
    .første-oversikt{
-     font-size: 3rem;
+     font-size: 48px;
    
   }
  
@@ -202,9 +202,9 @@ klasse til h2 og p ***/
 
 }
 .footer-container p{
-  font-size: 1.5rem;
-  padding-bottom: 1rem;
-  padding-top: 0.5rem;
+  font-size: 24px;
+  padding-bottom: 16px;
+  padding-top: 8px;
 }
 
 

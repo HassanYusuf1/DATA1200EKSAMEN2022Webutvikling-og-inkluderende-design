@@ -5,28 +5,28 @@ h1, h2, a,
 klasse til h2 og p */
 /************/
 h2 {
-  font-size: 2.8rem;
-  padding: 2rem 0;
+  font-size: 45px;
+  padding: 32px 0;
 }
 
 p{
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
+  margin-bottom: 16px;
+  font-size: 24px;
   line-height: 1.4;
 }
 
 h1{
-  font-size: 5rem;
+  font-size: 80px;
   text-align: center;
-  margin-bottom: 2rem;
-  margin-top: 4rem;
+  margin-bottom: 32px;
+  margin-top: 64px;
 }
 
 figure{
-  font-size: 1rem;
+  font-size: 16px;
 }
 .overskrift{
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: 300;
 }
 
@@ -43,8 +43,8 @@ figure{
 /*********************/
 
 main > article{
-    padding: 4rem 5rem 4rem;
-    margin-bottom: 2rem;
+    padding: 64px 80px 64px;
+    margin-bottom: 32px;
     border-radius: 5px;
 }
 
@@ -57,22 +57,22 @@ main{
 }
 .aktuell-tekst{
     border-style: solid;
-    padding: 4rem 5rem 4rem;
+    padding: 64px 80px 64px;
     
 }
 figure{
-    margin:  3rem;
+    margin:  48px;
     text-align: center;
 
 }
 .overskrift{
-    margin-bottom: 4rem;
-    margin-top: 5rem;
+    margin-bottom: 64px;
+    margin-top: 80px;
 }
 
 .book-form input,
 .book-form select {
-  font-size: 1.2rem;
+  font-size: 19px;
 
 }
 
@@ -82,27 +82,27 @@ figure{
 /***Layout Booking*****/
 
 .book-seksjon {
-    padding: 4.8rem 0 12.8rem;
+    padding: 77px 0 205px;
   }
   
   .book {
     display: grid;
     grid-template-columns: 2fr;
-    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 38px 77px rgba(0, 0, 0, 0.15);
     border-radius: 11px;
     overflow: hidden;
     
   }
   
   .book-tekst-box{
-    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    padding: 77px 102px 102px 102px;
     color: #070706;
     align-items: center;
     justify-content: center;
   }
   
   .book .tekst-box-overskrift {
-    margin-bottom: 1.2rem;
+    margin-bottom: 20px;
   }
   .book-overskrift{
     text-align: center;
@@ -110,24 +110,24 @@ figure{
 
   .boook-form {
     display: grid;
-    row-gap: 2.6rem;
+    row-gap: 42px;
     grid-template-columns:1fr 1fr;
-    column-gap: 3rem;
+    column-gap: 48px;
 
   }
   
   .book-form label {
     display: block;
-    font-size: 1.6rem;
+    font-size: 25px;
     font-weight: 300;
-    margin-bottom: 1.2rem;
+    margin-bottom: 20px;
    
   }
   
   .book-form input,
   .book-form select {
     width: 50%;
-    padding: 1.4rem;
+    padding: 22px;
     background-color: #fdf2e9;
     border-radius: 9px;
     box-shadow: 0 1px 2px rgba(94, 8, 8, 0.1);
@@ -137,12 +137,12 @@ figure{
     width: 15%;
   }
   .button{
-    padding: 1.2rem 2.4rem;
+    padding: 20px 38px;
     border-radius: 9px;
     color: #fff;
     background-color: #1c2c20;
-    margin-top: 2rem;
-    font-size: 2rem;
+    margin-top: 32px;
+    font-size: 32px;
    
   }
 
@@ -154,7 +154,7 @@ figure{
 	flex-wrap:wrap;
     align-items: center;
     justify-content: center;
-    margin: 4rem;
+    margin: 64px;
     
 	
 }
@@ -168,14 +168,14 @@ figure{
     display: grid;
     grid-template-columns: repeat(3, 1.5fr);
     border: 3px solid;
-    margin: 2rem 0 5rem;
-    padding: 2rem 3rem 4rem 3rem ;
+    margin: 32px 0 80px;
+    padding: 32px 48px 64px 48px ;
     
 }
 
 .type{
     align-items: center;
-    font-size: 2rem;
+    font-size: 32px;
 }
 
 
@@ -221,7 +221,7 @@ figure{
 
 /********Aktuel og tilgjenglighet********/
 .aktuell-tekst{
-  padding: 2rem 2rem 2rem;
+  padding: 32px 32px 32px;
   
 }
 .akutell-bilde{
@@ -238,7 +238,7 @@ figure{
 @media (max-width: 480px) {
 /***********Genrelt ****************/
 h1{
-  font-size: 3rem;
+  font-size: 48px;
 }
  h2{
   font-size: 30px;
@@ -266,14 +266,14 @@ p{
   }
   .book-tekst-box {
     /* top / right / bottom / left */
-    padding: 1rem 1rem 1rem 2rem ;
+    padding: 16px 16px 16px 32px ;
   }
 
 
   /******Meny*****/
 
   .aktuell-tekst{
-    padding: 1rem 1rem 1rem;
+    padding: 16px 16px 16px;
     
   }
   
