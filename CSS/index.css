@@ -14,7 +14,7 @@
     justify-content: space-between;
     align-items: center;
     display: flex;
-    background-color: #b4b1b1;
+    background-color: #8b8b8b;
     height: 154px;
     padding: 0 77px;
   }
@@ -76,6 +76,10 @@ klasse til h2 og p ***/
 .footer-tekst, .adresse-kolonne, .epost-kolonne, .mobil-kolonne{
   font-weight: bold;
   font-size: 30px;
+}
+
+.copyright {
+  font-size: 12px;
 }
 
   
