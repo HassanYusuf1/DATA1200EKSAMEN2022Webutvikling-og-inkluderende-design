@@ -20,11 +20,11 @@
   }
   
   .logo {
-    font-size: 70px;
-    font-weight: 600;
+    font-size: 75px;
+    font-weight: 650;
     color: #fdfdfe;
-    text-shadow: 0px 0px 5px #7fb9cf, 0px 0px 10px #7fb9cf, 0px 0px 10px #7fb9cf,
-    0px 0px 20px #7fb9cf;
+    text-shadow: 0px 0px 5px #4c9e9e, 0px 0px 10px #4c9e9e, 0px 0px 10px #4c9e9e,
+    0px 0px 20px #4c9e9e;
   }
 
   .logo:hover {
@@ -217,9 +217,8 @@ klasse til h2 og p ***/
   .footer-container{
     display: grid;
     grid-template-columns: 1fr;
-    
-
 }
+
 .footer-container p{
   font-size: 24px;
   padding-bottom: 16px;
