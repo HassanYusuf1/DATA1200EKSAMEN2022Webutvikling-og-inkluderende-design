@@ -136,7 +136,7 @@ figure{
   #hvorMange {
     width: 15%;
   }
-  .button{
+  .button {
     padding: 20px 38px;
     border-radius: 9px;
     color: #fff;
@@ -144,6 +144,10 @@ figure{
     margin-top: 32px;
     font-size: 32px;
    
+  }
+
+  .button:hover {
+    cursor: pointer;
   }
 
   /************/
