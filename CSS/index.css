@@ -29,6 +29,8 @@
 
   .logo:hover {
     cursor:pointer;
+    letter-spacing: 2.4px;
+    transition: 0.2s;
   }
   
 
