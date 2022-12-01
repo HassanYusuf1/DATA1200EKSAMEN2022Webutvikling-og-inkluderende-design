@@ -20,7 +20,7 @@
   }
   
   .logo {
-    font-size: 75px;
+    font-size: 55px;
     font-weight: 650;
     color: #fdfdfe;
     text-shadow: 0px 0px 5px #4c9e9e, 0px 0px 10px #4c9e9e, 0px 0px 10px #4c9e9e,
@@ -83,7 +83,20 @@ klasse til h2 og p ***/
 .copyright {
   font-size: 12px;
 }
+.maps {
+  position:relative;
+  text-align:right;
+  height:500px;
+  width:1000px;
+}
 
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:800px;
+  margin-top: 50px;
+}
   
   /****************/
   /*Layout*/
