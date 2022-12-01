@@ -121,6 +121,7 @@ klasse til h2 og p ***/
 .footer{
     padding: 80px 0 64px 80px;
     border-top: 1px solid #b4b1b1; ;
+   background-color: #8b8b8b;
 }
 
 .footer-link {
