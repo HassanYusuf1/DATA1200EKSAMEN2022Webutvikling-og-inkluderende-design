@@ -58,10 +58,14 @@ main{
     margin: 0 auto;
 }
 .aktuell-tekst{
-    border-style: solid;
     padding: 64px 80px 64px;
-    
 }
+
+.tilgjengelighet-tekst {
+  border-style: solid;
+  padding: 64px 80px 64px;
+}
+
 figure{
     margin:  48px;
     text-align: center;
