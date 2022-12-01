@@ -163,6 +163,21 @@ figure{
     cursor: pointer;
   }
 
+  .maps {
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:800px;
+  }
+  
+  .gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:800px;
+    margin-top: 50px;
+  }
+
   /************/
   /**Layout Meny siden*/
   .meny-container{
@@ -221,19 +236,19 @@ figure{
 .booking-tekst{
   font-size: 35px;
   padding: 0 30px 0 30px;
-  max-width: 800px;
+  max-width: 940px;
   
 }
 
 #lydTekst {
   font-size: 35px;
-  max-width: 800px;
+  max-width: 940px;
 }
 .book-overskrift{
   font-size: 60px;
 }
 .book-seksjon {
-  max-width: 800px;
+  max-width: 940px;
 }
 /**Meny***/
 
@@ -294,6 +309,15 @@ p{
     font-size: 40px;
 
   }
+
+  .maps {
+    width:300px;
+  }
+  
+  .gmap_canvas {
+    width:300px;
+  }
+
   #tittel{
 
     font-size: 25px;

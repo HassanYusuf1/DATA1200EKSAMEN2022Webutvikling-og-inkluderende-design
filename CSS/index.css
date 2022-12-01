@@ -83,20 +83,6 @@ klasse til h2 og p ***/
 .copyright {
   font-size: 12px;
 }
-.maps {
-  position:relative;
-  text-align:right;
-  height:500px;
-  width:1000px;
-}
-
-.gmap_canvas {
-  overflow:hidden;
-  background:none!important;
-  height:500px;
-  width:800px;
-  margin-top: 50px;
-}
   
   /****************/
   /*Layout*/
@@ -158,6 +144,8 @@ klasse til h2 og p ***/
 @media(max-width:940px){
  
 /*****Naven*******/
+ 
+  
   .nav-list{ 
     display:none;
     position: absolute;
@@ -166,6 +154,7 @@ klasse til h2 og p ***/
     left: 0;
     text-align: center;
     padding: 19px 0;
+    
    }
    .nav-list li:hover {
     display: inline-block;
@@ -186,29 +175,27 @@ klasse til h2 og p ***/
 
  /******Velkomen siden******/
  .info-tekst{
-  margin-bottom: 0;
+    margin-bottom: 0;
  }
  .info{
-   padding: 16px 48px;
-   grid-template-columns: 1fr;
+    padding: 16px 48px;
+    grid-template-columns: 1fr;
  }
  .info-bilde{
-   align-items: center;
-   padding-left: 50px;
- width: 80%;
+    align-items: center;
+    padding-left: 50px;
+    width: 80%;
  }
  
  .første-oversikt{
-
-   font-size: 64px;
-   margin-bottom: 32px;
-   margin-top: 48px;
+    font-size: 64px;
+    margin-bottom: 32px;
+    margin-top: 48px;
  }
 
  /****Footer*****/
  .footer{
-  padding: 10px 0 15px 10px;
-
+    padding: 10px 0 15px 10px;
 }
 
 .footer-tekst, .adresse-kolonne, .epost-kolonne, .mobil-kolonne{

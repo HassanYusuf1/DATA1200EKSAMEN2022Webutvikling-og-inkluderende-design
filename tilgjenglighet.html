@@ -61,23 +61,43 @@
             <div class="aktuell-tekst">
 
            
-            <h2>Hvordan vi testet koden vår</h2>
+            <h2>Hvordan vi testet koden vår (03.11.22)</h2>
             <p>
                 For å sjekke om koden vår var riktig brukte vi en nettside som heter nettstedet "web
                 accessibility evalutaion tool"
                 <a href="https://wave.webaim.org/">(WAVE)</a>. De fem sidene fikk alert og 2 av
-                sidene fikk errors. I booking og meny siden fikk vi error. I booking siden 
+                sidene fikk errors. I booking og meny siden fikk vi et par errors. I booking siden 
                 så fikk vi error på grunn av at vi hadde en form uten label, i tillegg så hadde
                 vi en form label som ikke var korrekt knyttet til en form control. I meny siden 
                 vår så hadde vi glemt å ta med alt tekst som førte til at vi fikk 8 errors.   
-                Vi fikk lik "alert" i alle 5 sidene og dette kom av at i footeren så hadde 
-                vi klart å bruke p tag der det skulle være en overskrift element.  I tilgjengelighet siden og aktuellinformasjon siden så fikk vi enda enn alert og
-                dette var at vi hadde startet med h2 tag uten å ha h1 tag, dette kan man ikke
-                gjøre, du må altid ha en h1 først også h2 osv. 
+                Vi fikk lik "alert" i alle 5 sidene, og dette kom av at i footeren, så hadde 
+                vi klart å bruke p tag der det skulle være en overskrift element. I tilgjengelighet siden og aktuellinformasjon siden så fikk vi enda en alert å
+                dette var at vi hadde startet med h2 tag uten å ha h1 tag. Dette kan man ikke
+                fikse. Du må altid ha en h1 før en h2-tag. 
                 Ellers hadde ikke de fem sidene noen andre varsler eller feil, som dere
                 kan se på bildet.
             </p>
+                <img src="bilder/feilGammel.png">
              </div>
+        </article>
+
+        <article>
+            <div class="aktuell-tekst">
+                <h2>Testet koden vår før innlevering (29.11.2022)</h2>
+                <p>
+                    Vi har rettet opp errors og finpusset siden. Etter å ha testet koden på samme nettside, så har vi fått
+                    0 errors, men fortsatt 4 alerts på grunn av at vi brukte p-tag som logo.
+                    Vi har gjort ting mer tilgjengelig for brukere på telefon og nettbrett, og rettet opp småfeil som 
+                    rekkefølge på tags.
+                    Vi har kodet inn en funksjon hvor du kan finne fram lett til vertshuset uten å lete på google.
+                    Et problem vi kom til når vi kodet, var at vi var nødt til å finne en løsning for at når layout og css ble
+                    endret, så ville tablet og tlf versjonen bli kaotisk.
+                    Vi var også nødt til å rydde opp på css, ettersom det var lite forståelig på forskjellen mellom
+                    pages.css og index.css. På denne måten vil devs etter oss forstå koden lettere og vil kunne
+                    få vite raskere hva de fikser på uten å navigere rundt.
+                </p>
+                <img src="bilder/feil.jpg.png">
+            </div>
         </article>
     </main>
    
