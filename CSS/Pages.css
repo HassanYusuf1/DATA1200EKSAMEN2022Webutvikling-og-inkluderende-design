@@ -159,8 +159,10 @@ figure{
     align-items: center;
     justify-content: center;
     margin: 64px;
-    
-	
+}
+
+.meny-container p {
+  font-family: monospace;
 }
 .meny-box{
 	padding: 5px;
@@ -176,9 +178,6 @@ figure{
     padding: 32px 48px 64px 48px;
 }
 
-.meny p {
-  font-family:monospace;
-}
 
 .type{
     align-items: center;
