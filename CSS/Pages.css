@@ -180,6 +180,7 @@ figure{
 
   /************/
   /**Layout Meny siden*/
+
   .meny-container{
 	display: flex;
     flex-direction: row;
@@ -195,10 +196,8 @@ figure{
 .meny-box{
 	padding: 5px;
 	margin: 10px;
-    
 }
 .meny {
-
     display: grid;
     grid-template-columns: repeat(3, 1.5fr);
     border: 3px solid;
@@ -250,17 +249,19 @@ figure{
 .book-seksjon {
   max-width: 940px;
 }
+
 /**Meny***/
 
-.meny {
 
+.meny {
+ 
   display: grid;
   grid-template-columns: 1fr;
 
   
 }
 .meny-item{
-
+ background-color: red;
   text-align: center;
 }
 
