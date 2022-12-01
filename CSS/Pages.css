@@ -54,9 +54,18 @@ main{
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
+    margin: 0 auto;
+}
+
+.fillMain {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
     max-width: 150ch;
     margin: 0 auto;
 }
+
+
 
 .aktuell-article {
   background-color: whitesmoke;
@@ -67,6 +76,9 @@ main{
     padding: 64px 80px 64px;
 }
 
+.tilgjengelighet-article {
+  max-width: 150ch;
+}
 
 .tilgjengelighet-tekst {
   border-style: solid;
