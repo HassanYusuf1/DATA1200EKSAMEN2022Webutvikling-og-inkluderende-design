@@ -55,6 +55,8 @@ main{
     grid-template-columns: 1fr;
     align-items: center;
     margin: 0 auto;
+    
+
 }
 
 .fillMain {
@@ -65,16 +67,17 @@ main{
     margin: 0 auto;
 }
 
-
-
 .aktuell-article {
   background-color: whitesmoke;
+
+  
 }
 
 
 .aktuell-tekst{
     padding: 64px 80px 64px;
 }
+
 
 .tilgjengelighet-article {
   max-width: 150ch;
