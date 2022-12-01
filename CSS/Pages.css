@@ -182,17 +182,18 @@ figure{
     margin: 64px;
 }
 
-
 .meny-box{
 	padding: 5px;
 	margin: 10px;
 }
+
 .meny {
     display: grid;
     grid-template-columns: repeat(3, 1.5fr);
     border: 3px solid;
     margin: 32px 0 80px;
     padding: 32px 48px 64px 48px;
+    background-color: white;
 }
 
 
@@ -251,10 +252,6 @@ figure{
   
 }
 .meny-item{
-<<<<<<< HEAD
- background-color: red;
-=======
->>>>>>> 41e9c5033df0e95aaf7f033e73c4a31d1817817b
   text-align: center;
 }
 
