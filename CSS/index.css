@@ -94,6 +94,11 @@ klasse til h2 og p ***/
 .velkommen-seksjon {
     background-color: #b4b1b1;
     padding: 77px 0 154px 0;
+  }
+
+  .meny-seksjon {
+    background-color: #b4b1b1;
+    padding: 77px 0 154px 0;
     margin-top: 100px;
     margin-bottom: 300px;
   }
