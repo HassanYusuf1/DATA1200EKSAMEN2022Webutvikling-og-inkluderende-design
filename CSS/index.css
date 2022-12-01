@@ -70,10 +70,12 @@ klasse til h2 og p ***/
   margin-bottom: 48px;
   font-weight: 600;
   color: rgb(0, 0, 0);
+  font-family: monospace;
 }
 .info-tekst{
   font-size: 32px;
   line-height: 1.6;
+  font-family: monospace;
 }
 .footer-tekst, .adresse-kolonne, .epost-kolonne, .mobil-kolonne{
   font-weight: bold;
