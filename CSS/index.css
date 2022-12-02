@@ -106,7 +106,7 @@ klasse til h2 og p ***/
   
   .info {
     max-width: 2080px;
-    margin: 0 auto;
+    margin: 30px auto;
     padding: 0 51px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -131,7 +131,7 @@ klasse til h2 og p ***/
 .footer{
     padding: 80px 0 64px 80px;
     border-top: 1px solid #b4b1b1; ;
-   background-color: #8b8b8b;
+   background-color: 	#6e7f80;
 }
 
 .footer-link {
@@ -212,10 +212,13 @@ klasse til h2 og p ***/
     padding: 10px 0 15px 10px;
 }
 
-.footer-tekst, .adresse-kolonne, .epost-kolonne, .mobil-kolonne{
-  font-size: 25px;
-}
 
+.footer-tekst, .adresse-kolonne, .epost-kolonne, .mobil-kolonne{
+  font-size: 20px;
+}
+a{
+  font-size: 17px;
+}
 
 /**********Mobil**************/
 @media (max-width: 480px) {
@@ -231,9 +234,9 @@ klasse til h2 og p ***/
  
 
   .footer-container{
-    display: grid;
-    grid-template-columns: 1fr;
-}
+
+    grid-template-columns: repeat(1,1fr)
+  }
 
 .footer-container p{
   font-size: 24px;
