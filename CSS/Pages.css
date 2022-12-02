@@ -223,6 +223,8 @@ figure{
 }
 
 
+
+
 .type{
     align-items: center;
     font-size: 32px;
@@ -279,6 +281,12 @@ figure{
 }
 .meny-item{
   text-align: center;
+}
+
+.meny-box img:hover {
+  height: 280px;
+  width: 350px;
+  transition: 1s;
 }
 
 
