@@ -168,11 +168,12 @@ klasse til h2 og p ***/
     left: 0;
     text-align: center;
     padding: 19px 0;
+  
     
    }
    .nav-list li:hover {
     display: inline-block;
-    background-color:#489696;
+    background-color:#c0c5ce;
    }
    .nav-list li + li {
     margin-top: 16px;
@@ -182,6 +183,9 @@ klasse til h2 og p ***/
    }
    .knapp{
     display: block;
+   }
+   .nav-link{
+    font-size: 30px;
    }
 
 
