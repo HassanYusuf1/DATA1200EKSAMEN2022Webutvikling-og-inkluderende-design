@@ -1,4 +1,5 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="nn">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +12,6 @@
       <!---NAV start-->
     <header class="header">
         <p class="logo" id="logo">GUTTA</p>
-          
-        <nav class="navBar">
             <nav class="navBar">
                 <ul class="nav">
                   <input type="checkbox" id="checkbox_toggle" />
@@ -25,7 +24,8 @@
                     <li><a tabindex="0" class="nav-link" href="tilgjenglighet.html">Tilgjenglighet</a></li>
                   </div>
                 </ul>
-              </nav>
+            </nav>
+ 
     </header>
       <!---NAV start-->
 
@@ -40,17 +40,17 @@
                 godt og som gjør det lettere for brukere å navigere seg effektivt.
                 Brukte semantikk taggere i hele koden. I steden for å bare bruke div taggere så brukte 
                 vi tagger som "header", "nav", "main" og "footer" for layout, mens "section" og "article"-elementer 
-                brukes for innhold. Dette ble gjort for at folk som bruker skjermlesere go søkemotorer 
-                kan forstå inneholder vårt. Vi valgte også ha store nok skriftstørrelser og linjeavstand
+                brukes for innhold. Dette ble gjort for at folk som bruker skjermlesere og søkemotorer 
+                kan forstå inneholder vårt. Vi valgte også ha store nok skriftstørrelser, bokstavavstan og linjeavstand
                 slik at alle kan lese teksten på siden. I tillegg så valgte vi enkle og fine farger slik
             at folk som er fargeblinde også skulle klare å lese sidene våre. Vi har også brukt tabindex 
             slik at brukere kan navigere med tastaturen. 
             </p>
             <figure aria-hidden="true">
                 <img class="" src="bilder/testKode.png"  height=230px width=600px
-                    alt="Screenshot of the website code that shows examples of 'aria-hidden' and 'tabindex'.">
+                    alt="Screenshot av kode som viser et eksempel av 'tabindex'.">
                 <figcaption>
-                    Screenshot of the code that shows examples of 'aria-hidden' and 'tabindex'.
+                    Screenshot av kode som viser eksempel av 'tabindex'.
                 </figcaption>
             </figure>
     
@@ -77,7 +77,8 @@
                 Ellers hadde ikke de fem sidene noen andre varsler eller feil, som dere
                 kan se på bildet.
             </p>
-                <img src="bilder/feilGammel.png">
+                <img src="bilder/feilGammel.png" alt="screenshot av hvilken error vi fikk etter vi brukte wave. Viser bildet av error, alerts, contrast erros,
+                feautres,structural elements og aria.">
              </div>
         </article>
 
@@ -96,7 +97,7 @@
                     pages.css og index.css. På denne måten vil devs etter oss forstå koden lettere og vil kunne
                     få vite raskere hva de fikser på uten å navigere rundt.
                 </p>
-                <img src="bilder/feil.jpg.png">
+                <img src="bilder/feil.jpg.png" alt="Screenshot av errors vi fikk etter brukt wave siden.">
             </div>
         </article>
     </main>
@@ -104,7 +105,8 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-tekst">
-                <iframe width="300" height="150" id="gmap_canvas" src="https://maps.google.com/maps?q=Sandvikveien%2080,%209300&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                <iframe width="300" height="150" id="gmap_canvas" src="https://maps.google.com/maps?q=Sandvikveien%2080,%209300&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                >
                 </iframe>
             </div>
             <div>

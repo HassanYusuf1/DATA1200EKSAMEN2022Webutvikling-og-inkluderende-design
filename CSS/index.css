@@ -14,7 +14,7 @@
     justify-content: space-between;
     align-items: center;
     display: flex;
-    background-color: #8b8b8b;
+    background-color:	#6e7f80;
     height: 154px;
     padding: 0 77px;
   }
@@ -46,8 +46,7 @@
     font-size: 30px ;
    }
    .nav-list li:hover {
-    background-color: #4c9e9e;
-    text-decoration: underline black;
+    background-color: 	#c0c5ce;
     border-radius: 4px;
    
    }
@@ -67,15 +66,16 @@ klasse til h2 og p ***/
 .første-oversikt {
   font-size: 83px;
   line-height: 1;
+  letter-spacing: 5px;
   margin-bottom: 48px;
-  font-weight: 600;
-  color: rgb(0, 0, 0);
-  font-family: monospace;
+
+ 
 }
 .info-tekst{
   font-size: 32px;
   line-height: 1.6;
-  font-family: monospace;
+  letter-spacing: 4px;
+
 }
 .footer-tekst, .adresse-kolonne, .epost-kolonne, .mobil-kolonne{
   font-weight: bold;
@@ -163,7 +163,7 @@ klasse til h2 og p ***/
   .nav-list{ 
     display:none;
     position: absolute;
-    background-color: #b4b1b1;
+    background-color:	#6e7f80;
     right: 0;
     left: 0;
     text-align: center;
@@ -222,7 +222,7 @@ klasse til h2 og p ***/
 
   .info-tekst{
     font-size: 24px;
-    padding: 20px,20px;
+    padding: 20px 20px;
    }
    .første-oversikt{
      font-size: 48px;
