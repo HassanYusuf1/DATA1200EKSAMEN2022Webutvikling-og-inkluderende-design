@@ -130,29 +130,29 @@ klasse til h2 og p ***/
 
 .footer{
     padding: 80px 0 64px 80px;
-    border-top: 1px solid #b4b1b1; ;
-   background-color: 	#6e7f80;
+    border-top: 1px solid #b4b1b1; 
+    background-color:#6e7f80;
+    margin-top:5px;
 }
 
 .footer-link {
   color:black;
   text-decoration: none;
-
 }
 
 .footer-container{
     display: grid;
-    grid-template-columns: repeat(4,1fr)
+    grid-template-columns: repeat(4,1fr);
 
 }
 .footer-container {
     font-size: 24px;
-    
 }
 
 /*****************/
+
 /*Tablets*********/
-@media(max-width:940px){
+@media(max-width:940px) {
  
 /*****Naven*******/
   
@@ -191,7 +191,7 @@ klasse til h2 og p ***/
 
 
 
- /******Velkomen siden******/
+ /******Velkomest-siden******/
  .info-tekst{
     margin-bottom: 0;
  }
