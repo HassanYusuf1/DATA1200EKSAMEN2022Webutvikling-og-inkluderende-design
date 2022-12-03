@@ -76,6 +76,20 @@ main{
     padding: 64px 80px 64px;
 }
 
+.aktuell-link {
+  text-decoration: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: black;
+}
+
+.aktuell-link:hover {
+  transition: 0.2s;
+  text-decoration: underline rgb(180, 180, 134);
+  color: rgb(104, 103, 103);
+
+}
+
 
 .tilgjengelighet-article {
   max-width: 150ch;
