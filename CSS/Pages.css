@@ -87,9 +87,7 @@ main{
   transition: 0.2s;
   text-decoration: underline rgb(180, 180, 134);
   color: rgb(104, 103, 103);
-
 }
-
 
 .tilgjengelighet-article {
   max-width: 150ch;
