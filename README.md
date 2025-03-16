@@ -2,7 +2,7 @@
 
 ![Guttas Vertshus Banner](https://via.placeholder.com/800x200/6e7f80/ffffff?text=GUTTAS+VERTSHUS)
 
-[![Norsk](https://img.shields.io/badge/🇳🇴-Norsk-blue)](./README_NO.md)
+[![Norsk](https://img.shields.io/badge/🇳🇴-Norsk-blue)](./README.md)
 [![English](https://img.shields.io/badge/🇬🇧-English-blue)](./README_EN.md)
 
 ---
